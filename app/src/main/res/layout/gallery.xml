@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context="com.study.class1.Main4Activity">
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#b9b9b9"
+        android:layout_height="107dp">
+
+        <TextView android:id="@+id/gallery1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+         android:text="Gallery"
+            android:textColor="#444"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="#b9b9b9"
+            android:textSize="50sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/linear2"
+        android:background="#f0f0f0"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/pic"
+            android:layout_width="wrap_content"
+            android:text="Luffy"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#777"
+            android:background="#f0f0f0"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/pic1"
+            android:layout_width="wrap_content"
+            android:text="Zoro"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#777"
+            android:background="#f0f0f0"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/pic2"
+            android:layout_width="wrap_content"
+            android:text="Nami"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#777"
+            android:background="#f0f0f0"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/pic3"
+            android:layout_width="wrap_content"
+            android:text="Sanji"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#777"
+            android:background="#f0f0f0"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/pic4"
+            android:layout_width="wrap_content"
+            android:text="Chopper"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#777"
+            android:background="#f0f0f0"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/pic5"
+            android:layout_width="wrap_content"
+            android:text="Usopp"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#777"
+            android:background="#f0f0f0"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/pic6"
+            android:layout_width="wrap_content"
+            android:text="Franky"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#777"
+            android:background="#f0f0f0"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

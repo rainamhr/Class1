@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    tools:context="com.study.class1.Main3Activity">
+    <LinearLayout android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#b9b9b9">
+        <TextView android:id="@+id/onePiece"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One Piece"
+            android:textSize="45sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#444"/>
+
+    </LinearLayout>
+    <ImageView android:id="@+id/pic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/logo4"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/linear1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button android:id="@+id/gallery"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="Gallery"
+        android:textColor="#555"
+        android:textStyle="bold"
+        android:layout_below="@+id/pic"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"/>
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo3"
+        android:layout_below="@+id/gallery"
+        />
+
+    <LinearLayout android:id="@+id/linear4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+
+        android:layout_below="@+id/linear1"
+        android:weightSum="1">
+
+        <Button android:id="@+id/epi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 1"
+            android:textAllCaps="false"
+            android:textStyle="italic"
+            android:textColor="#838383"
+            android:background="#fafafa"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+        <Button android:id="@+id/epi2"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:textColor="#838383"
+            android:background="#fafafa"
+            android:text="Episode 2"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+        <Button android:id="@+id/epi3"
+            android:textStyle="italic"
+            android:textColor="#838383"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fafafa"
+            android:textAllCaps="false"
+            android:text="Episode 3"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+        <Button android:id="@+id/others"
+            android:textStyle="italic"
+            android:textColor="#838383"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="others"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            android:background="#fafafa"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>

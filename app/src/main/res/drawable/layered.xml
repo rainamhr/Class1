@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/colorPrimary" />
+                    <gradient android:angle="45" android:startColor="#c29797" android:endColor="#e61111" />
+                    <corners android:radius="30dp" />
+                    <stroke android:color="#444" android:dashGap="5dp" android:dashWidth="50dp" android:width="10dp" />
+                </shape>
+            </item>
+
+            <item android:bottom="80dp" android:right="50dp" android:left="50dp" android:top="80dp">
+                <shape android:shape="oval" android:tint="#888" >
+                     />
+                </shape>
+            </item>
+
+            <item android:drawable="@drawable/luffy"
+                android:bottom="150dp" android:right="20dp" android:left="20dp" android:top="150dp">
+                <shape android:shape="oval" >
+                    <gradient android:angle="45"
+                        android:startColor="#000000"
+                        android:endColor="#ec1b1b"></gradient>
+
+
+                </shape>
+            </item>
+>
+        </layer-list>
+    </item>
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/luffy"> </item>
+</selector>
